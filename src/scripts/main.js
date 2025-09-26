@@ -26,7 +26,7 @@
 //   }
 // });
 
-// Сказано трохи переробити логіку, а саме:
+// Сказано переробити логіку, а саме:
 // 1. event.preventDefault() повинен впливати тільки на "а"
 // 2. Зробити умову click && click.tagName === 'A' бо if NULL буде eror
 // 3. Змінити event.target.parentElement > event.target.closest('a') "Надійніше"
